@@ -1,0 +1,51 @@
+/*Mobile Version (Iphone SE) */
+
+@media screen and (max-width: 600px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    color: white;
+
+    height: 14vh;
+    background-color: rgb(0, 0, 0);
+  }
+
+  footer p {
+    line-height: 25px;
+  }
+
+  footer p:last-child {
+    color: red;
+  }
+}
+
+/*Laptop Version*/
+
+@media screen and (min-width: 600px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    color: white;
+
+    height: 14vh;
+    background-color: rgb(0, 0, 0);
+  }
+
+  footer p {
+    line-height: 25px;
+  }
+
+  footer p:last-child {
+    color: red;
+  }
+}

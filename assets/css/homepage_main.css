@@ -1,0 +1,383 @@
+/*Mobile version (Iphone SE)*/
+
+@media screen and (max-width: 600px) {
+  /* Hero part*/
+
+  #hero_homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(26, 55, 88, 0.842);
+    width: 45vh;
+    height: 90vh;
+  }
+
+  /* Hero title*/
+
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-variant: small-caps;
+    font-weight: 300;
+    font-size: 3vh;
+    color: white;
+  }
+
+  .font-color-NEW {
+    font-size: 3.5vh;
+    font-weight: 600;
+    color: rgb(255, 78, 46);
+  }
+
+  /*Hero search bar*/
+
+  .search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 15px;
+
+    border-radius: 5px;
+
+    font-family: "Open Sans", sans-serif;
+
+    color: rgba(95, 95, 95, 0.575);
+
+    background-color: rgb(255, 255, 255);
+
+    width: 40vh;
+    height: 7vh;
+
+    overflow-y: hidden;
+  }
+
+  .search-bar_text {
+    font-size: 13px;
+    margin: 10px;
+  }
+
+  .search-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+
+    border-radius: 5px;
+    border: 0ch;
+    margin: 0%;
+    background-color: rgb(255, 78, 46);
+  }
+
+  .search-button-icon {
+    height: 40%;
+    width: 20px;
+    background-image: url("/assets/images/magnifying-glass-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  /*Title Articles */
+
+  #articles_title {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+  }
+
+  h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vh;
+    font-variant-caps: small-caps;
+    font-weight: 300;
+    line-height: 5vh;
+    align-items: flex-end;
+
+    margin-left: 3vh;
+  }
+
+  h3 span {
+    text-decoration: underline;
+    text-underline-offset: 1em;
+  }
+
+  /*Articles */
+
+  #movies_cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 80%;
+    height: vh;
+
+    background-color: rgb(255, 255, 255);
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 90vh;
+    overflow-y: hidden;
+
+    background-color: blue;
+    box-shadow: 2px 2px 15px -2px rgba(0, 0, 0, 0.53);
+  }
+
+  .card1_image {
+    height: 70vh;
+    background-image: url(/assets/images/poster-nightcrawler.jpg);
+    background-size: cover;
+  }
+  .card2_image {
+    height: 70vh;
+    background-image: url(/assets/images/poster-samurai.jpg);
+    background-size: cover;
+    background-position-y: -12px;
+  }
+  .card3_image {
+    height: 70vh;
+    background-image: url(/assets/images/poster-dune.jpg);
+    background-size: cover;
+  }
+
+  .card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5%;
+
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .card_text h4 {
+    font-family: "Open Sans", sans-serif;
+    font-variant: small-caps;
+    font: weight 600px;
+
+    margin-bottom: 15px;
+  }
+
+  .card_text p {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.7vh;
+
+    color: grey;
+    padding-inline: 5px;
+  }
+
+  .card_rating {
+    margin-top: 3vh;
+    width: 16vh;
+    height: 20px;
+    background-image: url(/assets/images/rating_stars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -20px;
+  }
+}
+
+/*Laptop Version*/
+@media screen and (min-width: 600px) {
+  #hero_homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(/assets/images/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+  }
+
+  /* Hero title*/
+
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-variant: small-caps;
+    font-weight: 300;
+    font-size: 7vh;
+    color: white;
+  }
+
+  .font-color-NEW {
+    font-size: 6.5vh;
+    font-weight: 600;
+    color: rgb(255, 78, 46);
+  }
+
+  /*Hero search bar*/
+
+  .search-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 15px;
+
+    border-radius: 5px;
+
+    font-family: "Open Sans", sans-serif;
+
+    color: rgba(95, 95, 95, 0.575);
+
+    background-color: rgb(255, 255, 255);
+
+    width: 90vh;
+    height: 10vh;
+
+    overflow-y: hidden;
+  }
+
+  .search-bar_text {
+    margin: 10px;
+  }
+
+  .search-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 10vh;
+
+    border-radius: 5px;
+    border: 0ch;
+    margin: 0%;
+    background-color: rgb(255, 78, 46);
+  }
+
+  .search-button-icon {
+    height: 40%;
+    width: 20px;
+    background-image: url("/assets/images/magnifying-glass-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  /*Whole articles sections */
+  #articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  /*Title Articles */
+
+  #articles_title {
+    justify-content: center;
+    width: 100%;
+    margin-inline: 15.5%;
+    margin-top: 5vh;
+    height: 10vh;
+    margin-bottom: 2vh;
+  }
+
+  h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 4vh;
+    font-variant-caps: small-caps;
+    font-weight: 300;
+    line-height: 5vh;
+    align-items: flex-end;
+  }
+
+  h3 span {
+    text-decoration: underline;
+    text-underline-offset: 1em;
+  }
+
+  /*Articles */
+
+  #movies_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 70%;
+    height: 100vh;
+
+    background-color: rgb(255, 255, 255);
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 85vh;
+    overflow-y: hidden;
+    margin: 10px;
+
+    background-color: blue;
+    box-shadow: 2px 2px 15px -2px rgba(0, 0, 0, 0.53);
+  }
+
+  .card1_image {
+    height: 70vh;
+    background-image: url(/assets/images/poster-nightcrawler.jpg);
+    background-size: cover;
+  }
+  .card2_image {
+    height: 70vh;
+    background-image: url(/assets/images/poster-samurai.jpg);
+    background-size: cover;
+    background-position-y: 20%;
+  }
+  .card3_image {
+    height: 70vh;
+    background-image: url(/assets/images/poster-dune.jpg);
+    background-size: cover;
+  }
+
+  .card_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5%;
+
+    height: 25vh;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .card_text h4 {
+    font-family: "Open Sans", sans-serif;
+    font-variant: small-caps;
+    font: weight 600px;
+
+    margin-bottom: 15px;
+  }
+
+  .card_text p {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2vh;
+
+    color: grey;
+    padding-inline: 5px;
+  }
+
+  .card_rating {
+    margin-top: 3vh;
+    width: 16vh;
+    height: 18%;
+    background-image: url(/assets/images/rating_stars.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 3%;
+  }
+}
