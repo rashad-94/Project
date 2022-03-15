@@ -132,18 +132,18 @@
 
   .card1_image {
     height: 70vh;
-    background-image: url(./assets/images/poster-nightcrawler.jpg);
+    background-image: url("./assets/images/poster-nightcrawler.jpg");
     background-size: cover;
   }
   .card2_image {
     height: 70vh;
-    background-image: url(./assets/images/poster-samurai.jpg);
+    background-image: url("./assets/images/poster-samurai.jpg");
     background-size: cover;
     background-position-y: -12px;
   }
   .card3_image {
     height: 70vh;
-    background-image: url(./assets/images/poster-dune.jpg);
+    background-image: url("./assets/images/poster-dune.jpg");
     background-size: cover;
   }
 
@@ -180,7 +180,7 @@
     margin-top: 3vh;
     width: 16vh;
     height: 20px;
-    background-image: url(./assets/images/rating_stars.jpg);
+    background-image: url("./assets/images/rating_stars.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -20px;
@@ -195,7 +195,7 @@
     justify-content: center;
     align-items: center;
 
-    background-image: url(./assets/images/hero.png);
+    background-image: url("./assets/images/hero.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 150vh;
@@ -327,18 +327,18 @@
 
   .card1_image {
     height: 70vh;
-    background-image: url(./assets/images/poster-nightcrawler.jpg);
+    background-image: url("./assets/images/poster-nightcrawler.jpg");
     background-size: cover;
   }
   .card2_image {
     height: 70vh;
-    background-image: url(./assets/images/poster-samurai.jpg);
+    background-image: url("./assets/images/poster-samurai.jpg");
     background-size: cover;
     background-position-y: 20%;
   }
   .card3_image {
     height: 70vh;
-    background-image: url(./assets/images/poster-dune.jpg);
+    background-image: url("./assets/images/poster-dune.jpg");
     background-size: cover;
   }
 
@@ -375,7 +375,7 @@
     margin-top: 3vh;
     width: 16vh;
     height: 18%;
-    background-image: url(/assets/images/rating_stars.jpg);
+    background-image: url("./assets/images/rating_stars.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 3%;
