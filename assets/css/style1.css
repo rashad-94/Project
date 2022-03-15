@@ -124,12 +124,7 @@ body {
     border-color: blue;
     
 }
-@media only screen and (min-width: 768px) {
-    /* For mobile phones: */
-  {
-      width: 100%;
-    }
-  }
+
 
 
   
