@@ -15,7 +15,6 @@ main {
 }
 body {
     font-family:"Open Sans", sans-serif;
-    justify-content: space-around;
  
 }
 
@@ -38,21 +37,9 @@ body {
     justify-items: center;
   
 }
-.nav {
-    color: white; 
-    display: flex;
-    flex-direction: row;
-    width: 200px;
-    justify-content: space-between;
-    margin-left: 40px;
-    list-style: none;
-    align-items: center;
-}
 
-.nav>li>a {
-    text-decoration: none;
-    color: white;
-}
+
+
 .goback {
     text-align: center;
     align-items: center;
